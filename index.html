@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <!-- styles -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -22,10 +23,10 @@
     <div class="site-header-actions">
       <nav>
         <ul class="sitenav-list">
-          <li><a class="site-nav-link" href="#">Bosh sahifa</a></liclass=>
-          <li><a class="site-nav-link" href="#">Kitoblar</a></li>
-          <li><a class="site-nav-link" href="#">Aksiyalar</a></li>
-          <li><a class="site-nav-link" href="#">Kontaktlar</a></li>
+          <li class="sitenav-item"><a class="site-nav-link" href="#">Bosh sahifa</a></liclass=>
+          <li class="sitenav-item"><a class="site-nav-link" href="#">Kitoblar</a></li>
+          <li class="sitenav-item"><a class="site-nav-link" href="#">Aksiyalar</a></li>
+          <li class="sitenav-item"><a class="site-nav-link" href="#">Kontaktlar</a></li>
         </ul>
       </nav>
       <a class="main-link" href="#">Ro'yxattan o'tish</a>
@@ -96,15 +97,17 @@
     <section class="promo">
       <div class="promo-content">
         <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-        <p class="promo-text">
-          Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli
-          mashq qo’llanmalari va komikslar.
-        </p>
-        <p class="promo-text">
-          Aksiyadagi eng katta to’plamda <span class="promo-highlight">50 ta kitob</span>ni
-          <span class="promo-highlight">350 ming</span>
-          so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
-        </p>
+        <div class="promo-text-wrapper">
+          <p class="promo-text">
+            Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli
+            mashq qo’llanmalari va komikslar.
+          </p>
+          <p class="promo-text">
+            Aksiyadagi eng katta to’plamda <span class="promo-highlight">50 ta kitob</span>ni
+            <span class="promo-highlight">350 ming</span>
+            so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
+          </p>
+        </div>
         <a class="main-link" href="#">Buyurtma berish</a>
       </div>
       <img class="promo-img" src="img/sale-img.jpg" alt="sale" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">

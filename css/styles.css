@@ -41,6 +41,16 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
+}
+
+.sitenav-item {
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child {
+  margin-right: 0;
 }
 
 .site-nav-link {
@@ -101,6 +111,8 @@ body {
   width: 80px;
   height: 3px;
   border: 0;
+  margin: 0;
+  margin-bottom: 40px;
   background-color: #FF7500;
 }
 
@@ -109,6 +121,8 @@ body {
 }
 
 .hero-heading {
+  margin-top: 0;
+  margin-bottom: 24px;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-size: 40px;
@@ -117,9 +131,8 @@ body {
 }
 
 .hero-text {
-  font-style: normal;
-  font-weight: 400;
-  color: #fff;
+  margin-top: 0;
+  margin-bottom: 44px;
 }
 
 .hero-img {
@@ -143,17 +156,25 @@ body {
   font-size: 72px;
   line-height: 1.2;
   color: #000000;
+  margin: 0;
+  margin-bottom: 72px;
 }
 
 .features-list {
   display: flex;
-  justify-content: space-between;
   list-style: none;
   padding: 0;
+  margin: 0;
+  margin-right: 40px;
 }
 
 .feature {
   width: 340px;
+  margin-right: 40px;
+}
+
+.feature:last-child {
+  margin-right: 0;
 }
 
 .feature-icon-wrapper {
@@ -199,12 +220,24 @@ body {
   font-size: 40px;
   line-height: 1.2;
   color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.promo-text-wrapper {
+  margin-bottom: 24px;
 }
 
 .promo-text {
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.promo-text:last-child {
+  margin-bottom: 0;
 }
 
 .promo-highlight {
@@ -236,6 +269,15 @@ body {
   display: flex;
   align-items: center;
   padding: 0;
+  margin: 0;
+}
+
+.site-footer-socials li {
+  margin-right: 16px;
+}
+
+.site-footer-socials li:last-child {
+  margin-right: 0;
 }
 
 .site-footer-socials a {
@@ -261,6 +303,8 @@ body {
   height: 2px;
   border: 0;
   background-color: rgba(37, 36, 32, 0.5);
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
 
 .site-footer-bottom {
@@ -269,10 +313,19 @@ body {
 
 .site-footer-links {
   width: 224px;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  margin-right: 68px;
   line-height: 19px;
 }
 
+.site-footer-links:last-child {
+  margin-right: 0;
+}
+
 .site-footer-links a {
+  display: block;
   text-decoration: none;
   color: #252420;
   transition: color 0.4s ease,
@@ -285,4 +338,8 @@ body {
 
 .site-footer-links a:active {
   opacity: 0.6;
+}
+
+.site-footer-socials svg {
+  display: block;
 }
